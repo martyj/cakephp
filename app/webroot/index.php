@@ -108,3 +108,5 @@ $Dispatcher->dispatch(
 	new CakeRequest(),
 	new CakeResponse()
 );
+
+echo '<h1>'.memory_get_peak_usage().'</h1>';
